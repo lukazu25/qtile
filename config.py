@@ -126,7 +126,7 @@ layout_theme = {
                 "border_width": 4,
                 "margin": 8,
                 "border_focus": "#d65d0e",
-                "border_normal": "#ffd580"
+                "border_normal": "#3d3d3d"
             }
 
 
