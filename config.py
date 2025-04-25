@@ -184,6 +184,15 @@ screens = [
                 widget.WindowName(),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=gruvbox_colors["aqua"]),
                 widget.Systray(),
+                widget.Battery(
+                  format='{char} {percent:2.0%}',
+                  charge_char='󰂄',
+                  discharge_char='󰁹',
+                  empty_char='󰂎',
+                  full_char='󱊣',
+                  update_interval=30,
+                  show_short_text=False,
+              ),
             ],
             24,  # Height of the bar
             background=gruvbox_colors["dark_bg"],  # Background color of the bar
