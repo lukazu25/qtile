@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-xrandr --output Virtual-1 --mode 1920x1080
+xrandr --output eDP --mode 1920x1080 --brightness 1
 
 nm-applet &
 
