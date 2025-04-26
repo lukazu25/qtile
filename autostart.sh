@@ -2,6 +2,12 @@
 
 xrandr --output eDP --mode 1920x1080 --brightness 1
 
+setxkbmap -layout "us,ru,ge" -option "grp:alt_shift_toggle"
+
 nm-applet &
 
-volumeicon
+volumeicon & 
+
+blueman-applet &
+
+dunst
