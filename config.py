@@ -93,6 +93,22 @@ layout_theme = {
                 "border_normal": "#3d3d3d"
             }
 
+gruvbox_colors = {
+    "dark_bg": "#282828",      # Dark background for bar
+    "light_bg": "#ebdbb2",     # Light background (for text and widgets)
+    "red": "#fb4934",          # Red
+    "green": "#b8bb26",        # Green
+    "yellow": "#fabd2f",       # Yellow
+    "blue": "#83a598",         # Blue
+    "purple": "#d3869b",       # Purple
+    "aqua": "#8ec07c",         # Aqua
+    "orange": "#fe8019",       # Orange
+    "text": "#ebdbb2",         # Light text color
+    "inactive_group": "#7c6f64", # Inactive group color
+    "active_group": "#83a598", # Active group color
+    "border": "#504945",       # Border color for the bar
+}
+
 
 layouts = [
     layout.Columns(
@@ -117,21 +133,7 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
-gruvbox_colors = {
-    "dark_bg": "#282828",      # Dark background for bar
-    "light_bg": "#ebdbb2",     # Light background (for text and widgets)
-    "red": "#fb4934",          # Red
-    "green": "#b8bb26",        # Green
-    "yellow": "#fabd2f",       # Yellow
-    "blue": "#83a598",         # Blue
-    "purple": "#d3869b",       # Purple
-    "aqua": "#8ec07c",         # Aqua
-    "orange": "#fe8019",       # Orange
-    "text": "#ebdbb2",         # Light text color
-    "inactive_group": "#7c6f64", # Inactive group color
-    "active_group": "#83a598", # Active group color
-    "border": "#504945",       # Border color for the bar
-}
+
 
 screens = [
     Screen(
