@@ -10,3 +10,11 @@ dunst config
 ```bash
 sudo cp dunstrc ~/.config/dconf/
 ```
+ 
+```bash
+sudo cp autostart.sh ~/.config/qtile/
+```
+ 
+```bash
+sudo chmod +x autostart.sh
+```
