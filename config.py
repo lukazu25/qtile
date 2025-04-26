@@ -94,9 +94,16 @@ layout_theme = {
 
 
 layouts = [
+    layout.Columns(
+            border_focus="#d65d0e",
+            border_normal="#3d3d3d",
+            border_focus_stack=gruvbox_colors["blue"],
+            border_width=4,
+            margin=8,
+            border_on_single=True
+            ),
     layout.MonadTall(**layout_theme),
     layout.MonadWide(**layout_theme),
-    layout.Columns(**layout_theme),
     layout.Floating(**layout_theme),
     layout.Max(**layout_theme)
 
