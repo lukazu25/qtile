@@ -10,11 +10,11 @@ dunst config
 ```bash
 sudo cp dunstrc ~/.config/dconf/
 ```
- 
+copy autostart to qtile directory
 ```bash
 sudo cp autostart.sh ~/.config/qtile/
 ```
- 
+ make it executable 
 ```bash
 sudo chmod +x autostart.sh
 ```
