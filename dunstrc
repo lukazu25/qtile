@@ -1,0 +1,8 @@
+[global]
+frame_color ="#928374"
+separator_color = frame
+background = "#282828"
+foreground = "#ebdbb2"
+
+timeout = 2
+font = Monospace 10
