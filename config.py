@@ -21,9 +21,9 @@ keys = [
     Key([mod, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),
 
     # Resize for MonadTall
-    Key([mod, "control", "shift"], "j", lazy.layout.shrink(), desc="Shrink window down"),
-    Key([mod, "control", "shift"], "k", lazy.layout.grow(), desc="Grow window up"),
-    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
+    #Key([mod, "control", "shift"], "j", lazy.layout.shrink(), desc="Shrink window down"),
+    #Key([mod, "control", "shift"], "k", lazy.layout.grow(), desc="Grow window up"),
+    #Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
 
     # Resize for Columns
     Key([mod, "control"], "h", lazy.layout.grow_left(), desc="Grow left"),
@@ -118,11 +118,11 @@ layouts = [
             border_width=4,
             margin=8,
             border_on_single=True
-            ),
-    layout.MonadTall(**layout_theme),
-    layout.MonadWide(**layout_theme),
-    layout.Floating(**layout_theme),
-    layout.Max(**layout_theme)
+            )
+    #layout.MonadTall(**layout_theme),
+    #layout.MonadWide(**layout_theme),
+    #layout.Floating(**layout_theme),
+    #layout.Max(**layout_theme)
 
 ]
 
