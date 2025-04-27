@@ -154,6 +154,7 @@ screens = [
                     blockhighight_text_color=gruvbox_colors["text"],  # Active group text color
                     this_current_screen_border=gruvbox_colors["border"],  # Border color for active group
                     this_screen_border=gruvbox_colors["border"],  # Border color for current screen
+                    order=["1", "2", "3", "4", "5"],
                 ),
                 widget.Prompt(),
                 widget.WindowName(),
