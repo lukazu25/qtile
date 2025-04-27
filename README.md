@@ -8,7 +8,7 @@ echo "exec qtile start >> ~/.xinitrc
 ```
 dunst config 
 ```bash
-sudo cp dunstrc ~/.config/dconf/
+sudo cp dunstrc ~/.config/dunst/
 ```
 copy autostart to qtile directory
 ```bash
