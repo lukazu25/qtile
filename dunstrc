@@ -5,4 +5,5 @@ background = "#282828"
 foreground = "#ebdbb2"
 
 timeout = 2
-font = Monospace 10
+font = JetBrains Mono Nerd Font  10
+markup = full
