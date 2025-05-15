@@ -1,29 +1,20 @@
-Check Virtualization Extension
-Run this command to make sure you’ve enabled virtualization in on your computer. It should be above 0
+If you use a display manager
 ```bash
-egrep -c '(vmx|svm)' /proc/cpuinfo
+sudo cp qtile.desktop /usr/share/xsessions/
 ```
-If the output is zero then go to bios settings and enable VT-x (Virtualization Technology Extension) for Intel processor and AMD-V for AMD processor.
-
-Install QEMU and Virtual Machine Manager
+If you don't
 ```bash
-sudo apt install qemu-kvm qemu-system qemu-utils python3 python3-pip libvirt-clients libvirt-daemon-system bridge-utils virtinst libvirt-daemon virt-manager -y
+echo "exec qtile start >> ~/.xinitrc
 ```
-Verify that Libvirtd service is started
+dunst config 
 ```bash
-sudo systemctl status libvirtd.service
+sudo cp dunstrc ~/.config/dunst/
 ```
-Start Default Network for Networking 
+copy autostart to qtile directory
 ```bash
-sudo virsh net-start default
-sudo virsh net-autostart default
-sudo virsh net-list --all
+sudo cp autostart.sh ~/.config/qtile/
 ```
-Add User to libvirt to Allow Access to VMs
+ make it executable 
 ```bash
-sudo usermod -aG libvirt $USER
-sudo usermod -aG libvirt-qemu $USER
-sudo usermod -aG kvm $USER
-sudo usermod -aG input $USER
-sudo usermod -aG disk $USER
+sudo chmod +x autostart.sh
 ```
