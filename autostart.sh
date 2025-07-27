@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-xrandr --output eDP --mode 1920x1080 --brightness 1
+xrandr -s 1920x1080 
 
 setxkbmap -layout "us,ru,ge" -option "grp:alt_shift_toggle"
 
